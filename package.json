@@ -1,0 +1,21 @@
+{
+	"name": "League-Bot",
+	"version": "1.0.0",
+	"description": "Summoner Lookup",
+	"main": "bot.js",
+	"author": "Danny Phantom",
+	"dependencies": {
+		"discord.io": "^2.5.3",
+		"discord.js": "^11.5.1",
+		"express": "^4.17.1",
+		"html-to-image": "^0.1.1",
+		"jsdom": "^15.2.0",
+		"node-fetch": "^2.6.0",
+		"node-server-screenshot": "^0.2.3",
+		"webshot": "^0.18.0",
+		"winston": "^3.2.1"
+	},
+	"devDependencies": {
+		"html2canvas": "^1.0.0-rc.5"
+	}
+}

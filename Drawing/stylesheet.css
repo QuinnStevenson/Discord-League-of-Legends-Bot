@@ -1,0 +1,233 @@
+@font-face 
+{
+  font-family: 'Friz Quadrata';
+  color: green;
+  src: url('../Fonts/FrizQuadrata.ttf') format('truetype');
+}
+
+body 
+{
+	background-color: white;
+}
+
+#screen
+{
+	font-family: 'Friz Quadrata';
+	border: solid;
+	width: 1600px;
+	height: 714px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("Images/temp1.png");
+	background-color: #fff9ea;
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+}
+
+#topTeams
+{
+	position: relative;
+	text-align: center;
+	height: 100px;
+	border-bottom: 2px solid;
+	font-size: 40pt;
+}
+
+.mainScreen
+{
+	font-family: 'Friz Quadrata';
+	border: solid;
+	width: 1600px;
+	height: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#left 
+{
+	position: absolute;
+	display: inline-block;
+	left: 0px;
+	top: 40px;
+	margin: 0;
+}
+
+#right
+{
+	position: absolute;
+	display: inline-block;
+	left: 1490px;
+	top: 40px;
+	margin: 0;
+}
+
+#leftTeam
+{
+	position: absolute;
+	width: 797px;
+	height: 612px;
+	border-right: 4px solid black;
+}
+
+#rightTeam
+{
+	position: absolute;
+	width: 800px;
+	height: 612px;
+	margin-left: 800px;
+}
+
+.championSquare
+{
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-style: 1px solid black;
+	border-radius: 8px;
+}
+
+.championSquareRight
+{
+	float: right;
+	height: 100px;
+	width: 100px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border-style: 1px solid black;
+	border-radius: 8px;
+}
+
+.leftPlayers
+{
+	border-bottom: 2px solid black;
+	height: 122px;
+	margin: 0;
+}
+
+.nameRight
+{
+	float: right;
+	margin-top: 4px;
+	margin-right: 10px;
+	font-size: 25pt;
+	right: 100px;
+}
+.name
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 10px;
+	font-size: 25pt;
+	left: 100px;
+}
+
+#leftTeam5
+{
+	border-bottom: 0px;
+}
+
+.rightPlayers
+{
+	border-bottom: 2px solid black;
+	height: 122px;
+	margin: 0;
+}
+
+#rightTeam5
+{
+	border-bottom: 0px;
+}
+
+.rankLogo
+{
+	position: absolute;
+	float: left;
+	height: 80px;
+	left: 120px;
+	margin-top: 40px;
+}
+
+.rankLogoRight
+{
+	position: absolute;
+	float: right;
+	height: 80px;
+	right: 120px;
+	margin-top: 40px;
+}
+
+.streak
+{
+	position: absolute;
+	float: left;
+	height: 60px;
+	width: 60px;
+	left: 660px;
+	margin-top: 50px;
+}
+
+.streakRight
+{
+	position: absolute;
+	float: right;
+	height: 60px;
+	width: 60px;
+	right: 660px;
+	margin-top: 50px;
+}
+
+.position
+{
+	position: absolute;
+	float: left;
+	height: 60px;
+	width: 60px;
+	left: 730px;
+	margin-top: 50px;
+}
+
+.positionRight
+{
+	position: absolute;
+	float: right;
+	height: 60px;
+	width: 60px;
+	right: 730px;
+	margin-top: 50px;
+}
+
+.division
+{
+	position: absolute;
+	font-family: 'Friz Quadrata';
+	font-style: bold;
+	font-size: 30pt;
+	float: left;
+	height: 60px;
+	width: 60px;
+	left: 210px;
+	margin-top: 55px;
+}
+
+#mascot 
+{
+	position: absolute;
+	left: 745px;
+	top: 10px;
+	height: 80px;
+	width: 120px;
+}
+
+.data {
+	position:absolute;
+	display:inline;
+	width: 30px;
+	height: 30px;
+}
+
+p 
+{
+	font-family: 'Friz Quadrata';
+}
